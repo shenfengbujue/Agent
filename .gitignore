@@ -1,0 +1,84 @@
+# ===== Java / Maven =====
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.log
+
+# ===== Maven Wrapper =====
+.mvn/wrapper/maven-wrapper.properties
+
+# ===== Spring Boot =====
+*.pid
+
+# ===== Node / npm =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Frontend Build =====
+frontend/dist/
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===== Environment & Config =====
+.env
+.env.local
+.env.*.local
+application-local.yml
+application-dev.yml
+**/application.yml
+!**/application.example.yml
+
+# ===== Database =====
+*.db
+*.sqlite
+neo4j_data/
+
+# ===== Docker =====
+docker-compose.override.yml
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== Logs =====
+logs/
+*.log
+
+# ===== Archives =====
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# ===== Temp =====
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ===== AI / Claude =====
+.claude/
+
+# ==== Large data files ====
+**/knowledge_base*.json
